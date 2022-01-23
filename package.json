@@ -1,0 +1,20 @@
+{
+    "name": "metdict",
+    "displayName": "Metdict",
+    "description": "A convenient and fast input method developed for atmospheric science writing",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.63.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "plaintext",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}
